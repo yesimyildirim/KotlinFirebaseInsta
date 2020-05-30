@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/border_stroke"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/recyclerEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/recyclerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:foregroundGravity="center"
+        android:paddingTop="15dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/recyclerCommentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+</LinearLayout>
